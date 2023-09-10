@@ -1,0 +1,363 @@
+/* Reset CSS */
+ body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  :root {
+    --color-primary: #ff3e7f;
+    --color-secundary: #03a9f4;
+    --backgound-color: rgba(32, 178, 170, 0.7);
+  }
+
+  /* Estilização do header */
+
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header img {
+    max-width: 100%;
+    border-radius: 10px;
+    
+  }
+
+ /* Estilização do cabeçalho */
+header {
+    position: relative; /* Define a posição relativa para o cabeçalho */
+    background-color: #fff; /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto */
+    padding: 10px;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilização do menu lateral */
+.conteiner {
+    position: absolute;
+    top: 10;
+    left: 0;
+    background-color: rgba(32, 178, 170, 0.7); /* Cor de fundo do menu com transparência */
+    padding: 20px;
+    height: 600px;
+    width: 150px; /* Largura do menu lateral */
+    color: #fff; /* Cor do texto do menu */
+    transition: width 0.3s; /* Transição suave da largura */
+    border-radius: 10px;
+}
+
+.menu-lateral ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-lateral ul li {
+    margin-bottom: 10px;
+}
+
+.menu-lateral ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff; /* Cor do link */
+    display: block;
+    transition: color 0.3s; /* Transição de cor ao passar o mouse */
+}
+
+.menu-lateral ul li a:hover {
+    color: var(--color-primary); /* Cor do link ao passar o mouse */
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 10px 20px; 
+}
+
+/* Estilizção Sobre a Clínica */
+
+ h1 {
+    position: relative;
+    color: #fff;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+    background-color: rgba(32, 178, 170, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h2  {
+    position: relative;
+    margin: 10px;
+    height: auto;
+    padding: 10px;
+}
+
+p {
+    position: relative;
+    margin: 0;
+    margin-left: 30px;
+    height: auto;
+    padding: 10px;
+}
+
+/* estilização dos Icons */
+
+.home .media-icons{
+    z-index: 888;
+    position: absolute;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s ease;
+}
+
+.home .media-icons a{
+    color: #fff;
+    font-size: 1.6em;
+    transition: 0.3s ease;
+}
+
+.home .media-icons a:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.home .media-icons a:hover{
+    transform: scale(1.3);
+    color: var(--color-primary);
+}
+
+/* Estilização dos Serviços */
+
+.mirrors {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px 50px;
+    padding: 100px 50px;
+}
+
+.mirrors .card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 350px;
+    height: 300px;
+    background: rgba(32, 178, 170, 0.7);
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+    transition: 0.5s;
+}
+
+.mirrors .card:hover {
+    height: 400px;
+}
+
+.mirrors .card .imgBx {
+    position: absolute;
+    top: 20px;
+    width: 300px;
+    height: 220px;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.mirrors .card:hover .imgBx {
+    top: -100px;
+    scale: 0.75;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.20);
+}
+
+.mirrors .card .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+}
+
+.mirrors .card .content {
+    position: absolute;
+    top: 240px;
+    width: 100%;
+    padding: 0 30px;
+    height: 45px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.mirrors .card:hover .content {
+    top: 130px;
+    height: 250px;
+}
+
+.mirrors .card .content h2 {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: var(--color-primary);
+}
+
+.mirrors .card .content p {
+    color: #333;
+}
+
+.mirrors .card .content a {
+    position: relative;
+    top: 15px;
+    display: inline-block;
+    padding: 12px 25px;
+    background: var(--color-primary);
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+/* Estilização do Footer */
+
+footer {
+    background-color: rgba(32, 178, 170, 0.7); /* Cor de fundo */
+    margin: 10px;
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 10px;
+}
+
+h4 {
+    font-size: 1.2rem; /* Tamanho da fonte para os títulos */
+    margin: 0;
+    margin-top: 10px; /* Espaçamento superior entre os títulos */
+}
+
+.footer {
+    font-size: 1rem; /* Tamanho da fonte para os parágrafos */
+    margin: 0; /* Espaçamento entre os parágrafos */
+}
+
+.copyright {
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.copyright p {
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+/* Estilização Contato */
+
+.contact-container {
+    background-color: #fff;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(32, 178, 170, 0.7);
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+button {
+    background-color: rgba(32, 178, 170, 0.7);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--color-primary);
+}
+
+/* Estilização Atendimento */
+
+.schedule-container {
+    background-color: #fff;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(32, 178, 170, 0.7);
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.schedule-table th, .schedule-table td {
+    border: 1px solid rgba(32, 178, 170, 0.7);
+    padding: 8px;
+    text-align: center;
+}
+
+.schedule-table th {
+    background-color: rgba(32, 178, 170, 0.7);
+    color: #fff;
+}
+
+.schedule-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.schedule-table tr:hover {
+    background-color: #ddd;
+}
+
+
+
+
+
+
+
+
+
