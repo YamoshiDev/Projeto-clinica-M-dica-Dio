@@ -1,4 +1,4 @@
-<h1 align="center"> Desáfio Dio.me</h1>
+<h1 align="center"> Desafio Dio.me</h1>
 
 <p align="center">
 Desáfio, promovido pela Dio.me no curso de HTML.
@@ -25,7 +25,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Desáfio proposto no curso de HTML Dio.me
+Desafio proposto no curso de HTML Dio.me
 
 ## :memo: Licença
 
