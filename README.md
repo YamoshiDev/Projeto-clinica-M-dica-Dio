@@ -12,7 +12,7 @@ Desáfio, promovido pela Dio.me no curso de HTML.
 </p>
 
 <p align="center">
-  <img alt="Projeto de Clínica Médica" src=".Github/previw.png">
+  <img alt="Projeto de Clínica Médica" src=".Github/previw (1).jpg">
 </p>
 <br>
 
